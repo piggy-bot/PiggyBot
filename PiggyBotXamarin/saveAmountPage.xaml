@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:PiggyBotXamarin"
+             x:Class="PiggyBotXamarin.saveAmountPage" 
+             BackgroundColor="#CBEBF9">
+    <ContentPage.Content>
+    <ScrollView>
+            <StackLayout>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="15*" />
+                        <ColumnDefinition Width="70*" />
+                        <ColumnDefinition Width="15*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25" />
+                        <RowDefinition Height="40" />
+                        <RowDefinition Height="40" />
+                        <RowDefinition Height="45" />
+                        <RowDefinition Height="170" />
+                    </Grid.RowDefinitions>
+                    <Label Grid.Column="2" Grid.Row="0" x:Name="saved" Text="0/0" TextColor="#CB8076" FontSize="16" />
+                    <Label Grid.Column="1" Grid.Row="1" Text="How much would you like to save?" TextColor="#CB8076" FontSize="14" />
+                    <Entry Grid.Column="1" Grid.Row="2" x:Name="savingamount" Placeholder="0$" PlaceholderColor="#722950" FontSize="12" />
+                    <Button Grid.Column="1" Grid.Row="3" Text="Set saving amount" TextColor="White" BackgroundColor="#722950" Clicked="saveAmount" BorderRadius="13" />
+                    <Image Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3" Source="happyPigNoCoin.jpg" HorizontalOptions="FillAndExpand" Aspect="Fill" VerticalOptions="End" />
+                </Grid>
+            </StackLayout>
+    </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

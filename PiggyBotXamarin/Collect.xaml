@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PiggyBotXamarin.Collect"
+             BackgroundColor="#CBEBF9">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="15*" />
+                        <ColumnDefinition Width="65*" />
+                        <ColumnDefinition Width="20*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="80" />
+                        <RowDefinition Height="40" />
+                        <RowDefinition Height="35" />
+                        <RowDefinition Height="160" />
+                    </Grid.RowDefinitions>
+                    <Label Grid.Row="0" Grid.Column="2" x:Name="saved" Text="0/0" TextColor="#CB8076" FontSize="20" />
+                    <Image Grid.Row="1" Grid.Column="1"  HorizontalOptions="FillAndExpand" Source="coin.jpg" />
+                    <Entry x:Name="piggyPassword" Grid.Row="2" Grid.Column="1" Placeholder="Piggy Password" IsPassword="True" PlaceholderColor="#722950" FontSize="12" />
+                    <Button Grid.Row="3" Grid.Column="1" Text="Collect" TextColor="White" BackgroundColor="#722950" Clicked="collectMoney" BorderRadius="13" />
+                    <Image x:Name="pigStatus" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3" HorizontalOptions="FillAndExpand" Aspect="Fill" Source="grasslarge.jpg" />
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

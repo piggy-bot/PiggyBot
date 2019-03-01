@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PiggyBotXamarin.MainPigPage"
+             BackgroundColor="#CBEBF9">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="15*" />
+                            <ColumnDefinition Width="60*" />
+                            <ColumnDefinition Width="25*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="25" />
+                            <RowDefinition Height="40" />
+                            <RowDefinition Height="40" />
+                            <RowDefinition Height="45" />
+                            <RowDefinition Height="170" />
+                        </Grid.RowDefinitions>
+                    <Label x:Name="saved" Text="0/0" Grid.Row="0" Grid.Column="2" TextColor="#CB8076" FontSize="20"/>
+                    <Image x:Name="pigSpeech" Grid.Row="2" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="2" HorizontalOptions="FillAndExpand" Aspect="Fill" Source="happypignocoinspeech.jpg" />
+                    <Image x:Name="pigStatus" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3" HorizontalOptions="FillAndExpand" Aspect="Fill" Source="happyPigNoCoin.jpg" />
+                </Grid>
+                </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

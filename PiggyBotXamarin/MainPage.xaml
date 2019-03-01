@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:PiggyBotXamarin"
+             x:Class="PiggyBotXamarin.MainPage" 
+             BackgroundColor="#CBEBF9">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="15*" />
+                        <ColumnDefinition Width="70*" />
+                        <ColumnDefinition Width="15*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100" />
+                        <RowDefinition Height="40" />
+                        <RowDefinition Height="40" />
+                        <RowDefinition Height="45" />
+                        <RowDefinition Height="100" />
+                    </Grid.RowDefinitions>
+                    <Image Grid.Row="0" Grid.Column="1" Source="piggybank.jpg" HorizontalOptions="Center" />
+                    <Label Grid.Row="1" Grid.Column="1" Text="PiggyBot" TextColor="#CB8076" FontSize="20" HorizontalOptions="Center" />
+                    <Entry x:Name="piggyId" Grid.Row="2" Grid.Column="1" Placeholder="Piggy Id" PlaceholderColor="#722950" FontSize="12" />
+                    <Button Text="Sign in" Grid.Row="3" Grid.Column="1" TextColor="White" BackgroundColor="#722950" Clicked="signIn" BorderRadius="13" />
+                    <Image Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3" Source="grass.jpg" HorizontalOptions="FillAndExpand" Aspect="Fill" />
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

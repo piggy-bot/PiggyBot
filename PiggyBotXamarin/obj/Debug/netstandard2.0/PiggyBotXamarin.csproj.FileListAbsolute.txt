@@ -1,0 +1,15 @@
+C:\Users\Shireen\source\repos\PiggyBot\PiggyBotXamarin\PiggyBotXamarin\PiggyBotXamarin\bin\Debug\netstandard2.0\PiggyBotXamarin.deps.json
+C:\Users\Shireen\source\repos\PiggyBot\PiggyBotXamarin\PiggyBotXamarin\PiggyBotXamarin\bin\Debug\netstandard2.0\PiggyBotXamarin.dll
+C:\Users\Shireen\source\repos\PiggyBot\PiggyBotXamarin\PiggyBotXamarin\PiggyBotXamarin\bin\Debug\netstandard2.0\PiggyBotXamarin.pdb
+C:\Users\Shireen\source\repos\PiggyBot\PiggyBotXamarin\PiggyBotXamarin\PiggyBotXamarin\obj\Debug\netstandard2.0\PiggyBotXamarin.csprojAssemblyReference.cache
+C:\Users\Shireen\source\repos\PiggyBot\PiggyBotXamarin\PiggyBotXamarin\PiggyBotXamarin\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Shireen\source\repos\PiggyBot\PiggyBotXamarin\PiggyBotXamarin\PiggyBotXamarin\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Shireen\source\repos\PiggyBot\PiggyBotXamarin\PiggyBotXamarin\PiggyBotXamarin\obj\Debug\netstandard2.0\PiggyBotXamarin.csproj.CoreCompileInputs.cache
+C:\Users\Shireen\source\repos\PiggyBot\PiggyBotXamarin\PiggyBotXamarin\PiggyBotXamarin\obj\Debug\netstandard2.0\PiggyBotXamarin.AssemblyInfoInputs.cache
+C:\Users\Shireen\source\repos\PiggyBot\PiggyBotXamarin\PiggyBotXamarin\PiggyBotXamarin\obj\Debug\netstandard2.0\PiggyBotXamarin.AssemblyInfo.cs
+C:\Users\Shireen\source\repos\PiggyBot\PiggyBotXamarin\PiggyBotXamarin\PiggyBotXamarin\obj\Debug\netstandard2.0\PiggyBotXamarin.dll
+C:\Users\Shireen\source\repos\PiggyBot\PiggyBotXamarin\PiggyBotXamarin\PiggyBotXamarin\obj\Debug\netstandard2.0\PiggyBotXamarin.pdb
+C:\Users\Shireen\source\repos\PiggyBot\PiggyBotXamarin\PiggyBotXamarin\PiggyBotXamarin\obj\Debug\netstandard2.0\saveAmountPage.xaml.g.cs
+C:\Users\Shireen\source\repos\PiggyBot\PiggyBotXamarin\PiggyBotXamarin\PiggyBotXamarin\obj\Debug\netstandard2.0\MainPigPage.xaml.g.cs
+C:\Users\Shireen\source\repos\PiggyBot\PiggyBotXamarin\PiggyBotXamarin\PiggyBotXamarin\obj\Debug\netstandard2.0\Collect.xaml.g.cs
+C:\Users\Shireen\source\repos\PiggyBot\PiggyBotXamarin\PiggyBotXamarin\PiggyBotXamarin\obj\Debug\netstandard2.0\XamlC.stamp
